@@ -1,0 +1,24 @@
+{
+  "mode": "offline simulation",
+  "job_id": "ar_job_demo",
+  "status": "submitted",
+  "report": "AgentResolve JSON check v1\nResult: PASS\nRequired name, url and skills passed the local field rules.\nScope: local field validation only. No URL fetched or identity/protocol certified.",
+  "trace": [
+    {
+      "step": "Agreement checked",
+      "detail": "Assigned operator, accepted hash, frozen instructions and GBP 0 scope match."
+    },
+    {
+      "step": "Start confirmed",
+      "detail": "Synthetic API fixture."
+    },
+    {
+      "step": "Task executed",
+      "detail": "Local JSON field rules; no LLM call, URL fetch, shell command or payment."
+    },
+    {
+      "step": "Submitted for review",
+      "detail": "The requester still needs to review the result. No completion or payment is triggered by this example."
+    }
+  ]
+}
